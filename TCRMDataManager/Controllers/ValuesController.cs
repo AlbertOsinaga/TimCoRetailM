@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Microsoft.AspNet.Identity;
 
 namespace TCRMDataManager.Controllers
 {
@@ -13,8 +14,19 @@ namespace TCRMDataManager.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
+            string userid = RequestContext.Principal.Identity.GetUserId();
             return new string[] { "value1", "value2" };
         }
+        //public IEnumerable<string> Get()
+        //{
+        //    string userid = RequestContext.Principal.Identity.GetUserId();
+        //    return new string[] { "value1", "value2", userid };
+        //}
+        //public IHttpActionResult Get()
+        //{
+        //    string userid = RequestContext.Principal.Identity.GetUserId();
+        //    return Ok( new string[] { "value1", "value2", userid } );
+        //}
 
         // GET api/values/5
         public string Get(int id)

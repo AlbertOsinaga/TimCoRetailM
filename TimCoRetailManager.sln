@@ -1,9 +1,24 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCRMDataManager", "TCRMDataManager\TCRMDataManager.csproj", "{EE251840-5971-4E5D-AFB6-2C0E3F21D8B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE251840-5971-4E5D-AFB6-2C0E3F21D8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE251840-5971-4E5D-AFB6-2C0E3F21D8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE251840-5971-4E5D-AFB6-2C0E3F21D8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE251840-5971-4E5D-AFB6-2C0E3F21D8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2EB4AE3-1E59-4573-A905-3EA62D08977B}
 	EndGlobalSection
 EndGlobal
